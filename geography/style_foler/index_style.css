@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+.map-container{
+    position:relative;
+    width:100%;
+}
+img{
+    display:flex;
+    max-width: 100%;
+    height:auto;
+}
+.marker{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
