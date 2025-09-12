@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 .map-container{
-    position:relative;
+    position:center;
     width:100%;
 }
 img{
@@ -14,4 +14,10 @@ img{
     position: absolute;
     width: 20px;
     height: 20px;
+    background-color: rgb(175, 45, 16);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.marker:hover{
+    transform: scale(1.2);
 }
