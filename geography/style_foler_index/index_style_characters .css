@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(74, 74, 74);
+}
+
+.map-container {
+    position: center;
+    width: 100%;
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+.porolissum {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 440px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(190, 108, 90);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.porolissum:hover {
+    transform: scale(1.2);
+}
+
+.casa_memoriala_ilmaniu {
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(175, 90, 71);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.casa_memoriala_ilmaniu:hover {
+    transform: scale(1.2);
+}
+
+.muz_istorie_jd {
+    display: flex;
+    position: absolute;
+    top: 240px;
+    left: 365px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(175, 90, 71);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.muz_istorie_jd:hover {
+    transform: scale(1.2);
+}
+
+.gr_zmeilor{
+    display: flex;
+    position: absolute;
+    top: 280px;
+    left: 650px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(175, 90, 71);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.gr_zmeilor:hover {
+    transform: scale(1.2);
+}
+
+.jb_gradina{
+    display: flex;
+    position: absolute;
+    top: 170px;
+    left: 520px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(175, 90, 71);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.jb_gradina:hover {
+    transform: scale(1.2);
+}
+.mihai_viteazu_monument{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 330px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(175, 90, 71);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.mihai_viteazu_monument:hover {
+    transform: scale(1.2);
+}
+.apa_curgatoare_somes{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(148, 164, 237);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.apa_curgatoare_somes:hover {
+    transform: scale(1.2);
+}
+.apa_curgatoare_barcau{
+    display: flex;
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(148, 164, 237);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.apa_curgatoare_barcau:hover {
+    transform: scale(1.2);
+}
+.apa_curgatoare_agrij{
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 500px;
+    width: 4%;
+    height: 8%;
+    background-color: rgb(148, 164, 237);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.apa_curgatoare_agrij:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+    .porolissum {
+        display: flex;
+        position: absolute;
+        top: 500px;
+        left: 300px;
+        width: 5%;
+        height: 3%;
+        background-color: rgb(19, 5, 75);
+        cursor: pointer;
+        
+    }
+
+
+    .casa_memoriala_ilmaniu {
+        display: flex;
+        position: absolute;
+        top: 200px;
+        left: 300px;
+        width: 5%;
+        height: 3%;
+        background-color: rgb(32, 6, 66);
+        cursor: pointer;
+        
+    }
+
+}

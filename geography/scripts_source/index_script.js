@@ -1,10 +1,10 @@
-document.querySelectorAll('.marker1').forEach(marker=>{
+document.querySelectorAll('.porolissum').forEach(marker=>{
     marker.addEventListener('click', ()=>{
-        alert('Character clicked!');
+        alert('Porollissum clicked!');
     });
 });
 
-document.querySelectorAll('.marker2').forEach(marker=>{
+document.querySelectorAll('.casa_memoriala_ilmaniu').forEach(marker=>{
     marker.addEventListener('click', ()=>{
         alert('Character clicked!');
     });
