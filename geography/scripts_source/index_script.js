@@ -1,11 +1,14 @@
-document.querySelectorAll('.porolissum').forEach(marker=>{
-    marker.addEventListener('click', ()=>{
+//partea de slideshow
+
+//partea de declansare a obiectivelor turistice
+document.querySelectorAll('.porolissum').forEach(mark=>{
+    mark.addEventListener('click', ()=>{
         alert('Porollissum clicked!');
     });
 });
 
-document.querySelectorAll('.casa_memoriala_ilmaniu').forEach(marker=>{
-    marker.addEventListener('click', ()=>{
+document.querySelectorAll('.casa_memoriala_ilmaniu').forEach(mark=>{
+    mark.addEventListener('click', ()=>{
         alert('Character clicked!');
     });
 });
