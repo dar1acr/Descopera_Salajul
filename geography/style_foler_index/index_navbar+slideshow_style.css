@@ -46,7 +46,7 @@ img {
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(125, 125, 125, 0.323);
+    background-color: rgba(81, 81, 81, 0.538);
 }
 
 .upper_text {
@@ -58,8 +58,8 @@ img {
 }
 
 .text {
-    color: white;
-    font-size: 15px;
+    color: rgb(2, 2, 2);
+    font-size: 30px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
