@@ -1,21 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style_foler_index/index_style_characters .css">
-        <link rel="stylesheet" href="style_foler_index/index_navbar_style.css">
-        <link rel="stylesheet" href="style_foler_index/index_character_trying.css">
-        <!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
 
-    </head>
-    <body>
-        <div class="upper_info">
-            <div class="nav_bar"></div>
-            <div class="slide_Show"></div>
+<head>
+    <link rel="stylesheet" href="style_foler_index/index_style_characters .css">
+    <link rel="stylesheet" href="style_foler_index/index_navbar+slideshow_style.css">
+    <link rel="stylesheet" href="style_foler_index/index_character_trying.css">
+    
+
+</head>
+
+<body>
+    <div class="upper_info">
+        <div class="nav_bar"></div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="upper_text">©Wikipedia</div>
+                <img src="img/img1.jpg" style="width:100%;">
+                <div class="text">Porolissum</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="upper_text">©Wikipedia</div>
+                <img src="img/img2.jpg" style="width:100%;">
+                <div class="text">Grădina Botanică „Vasile Fati” din Jibou</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="upper_text">©Wikipedia</div>
+                <img src="img/img3.jpg" style="width:100%;">
+                <div class="text">Grădina zmeilor</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="upper_text">©Salvati casa memoriala Iuliu Maniu</div>
+                <img src="img/img4.jpg" style="width:100%;">
+                <div class="text">Casa memorială Iuliu Maniu</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="upper_text">©Wikipedia</div>
+                <img src="img/img5.jpg" style="width:100%;">
+                <div class="text">Rezervația naturală Izvoarele Barcăului</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
         </div>
         <br>
-        <div class="container_character"></div>
-        <br><br>
-        <div class="map-container">
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+    <br>
+    <div class="container_character"></div>
+    <br><br>
+    <div class="character_container">
+        <div class></div>
+    </div>
+    <!--div class="map-container">
             <img src="img/Salaj.jpg" alt="Map"/>
             <div class="porolissum"></div>
             <div class="casa_memoriala_ilmaniu"></div>
@@ -26,7 +67,8 @@
             <div class="apa_curgatoare_somes"></div>
             <div class="apa_curgatoare_barcau"></div>
             <div class="apa_curgatoare_agrij"></div>
-        </div>
-        <script src="scripts_source/index_script.js"></script>
-    </body>
+        </div-->
+    <script src="scripts_source/index.js"></script>
+</body>
+
 </html>
