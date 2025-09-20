@@ -36,3 +36,9 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
+//partea de scroll catre harta
+function scroll_to_map(){
+  var element=document.getElementById('map');
+  element.scrollIntoView();
+}
+//

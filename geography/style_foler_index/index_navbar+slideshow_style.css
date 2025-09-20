@@ -129,8 +129,9 @@ img {
     text-decoration: none;
     font-size: 17px;
 }
-#navbar a:hover{
+#navbar :hover{
     background-color: #c5bcbcac;
     color:black;
+    cursor: pointer;
 }
 /*Top fixed navbar endind*/

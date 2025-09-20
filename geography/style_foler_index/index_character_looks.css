@@ -1,0 +1,68 @@
+/*Partea de pisica*/
+.charater_container-ch-wild_cat {
+    width: 190px;
+    height: auto;
+}
+
+.charater_container-ch-wild_cat:hover {
+    cursor: pointer;
+}
+
+.charater_container-ch-wild_cat .head {
+    border-bottom: 50px solid rgb(145, 115, 89);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 125;
+    width: 125px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    z-index: 1;
+}
+
+.charater_container-ch-wild_cat .l-eye {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 14px;
+    background-color: rgb(2, 25, 3);
+    width: 10px;
+    height: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 2;
+}
+
+.charater_container-ch-wild_cat .r-eye {
+    margin-top: 6px;
+    margin-left: 50px;
+    position: absolute;
+    display: inline-flex;
+    background-color: rgb(2, 25, 3);
+    width: 10px;
+    height: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.charater_container-ch-wild_cat .nose {
+    margin-top: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 14px solid rgb(114, 46, 87);
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    z-index: 2;
+}
+.charater_container-ch-wild_cat .ears .l-ear{
+    
+}
+
+/*Partea de urias*/
+
+
+/*Partea de vrajitoare*/

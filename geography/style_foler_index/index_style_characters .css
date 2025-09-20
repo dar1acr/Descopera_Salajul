@@ -16,8 +16,8 @@ img {
 .porolissum {
     display: flex;
     position: absolute;
-    top: 250px;
-    left: 440px;
+    margin-top: 250px;
+    margin-left: 440px;
     width: 4%;
     height: 8%;
     background-color: rgb(190, 108, 90);
@@ -32,8 +32,8 @@ img {
 .casa_memoriala_ilmaniu {
     display: flex;
     position: absolute;
-    top: 180px;
-    left: 250px;
+    margin-top: 180px;
+    margin-left: 250px;
     width: 4%;
     height: 8%;
     background-color: rgb(175, 90, 71);
@@ -48,8 +48,8 @@ img {
 .muz_istorie_jd {
     display: flex;
     position: absolute;
-    top: 240px;
-    left: 365px;
+    margin-top: 240px;
+    margin-left: 365px;
     width: 4%;
     height: 8%;
     background-color: rgb(175, 90, 71);
@@ -64,8 +64,8 @@ img {
 .gr_zmeilor{
     display: flex;
     position: absolute;
-    top: 280px;
-    left: 650px;
+    margin-top: 280px;
+    margin-left: 650px;
     width: 4%;
     height: 8%;
     background-color: rgb(175, 90, 71);
@@ -79,8 +79,8 @@ img {
 .jb_gradina{
     display: flex;
     position: absolute;
-    top: 170px;
-    left: 520px;
+    margin-top: 170px;
+    margin-left: 520px;
     width: 4%;
     height: 8%;
     background-color: rgb(175, 90, 71);
@@ -93,8 +93,8 @@ img {
 .mihai_viteazu_monument{
     display: flex;
     position: absolute;
-    top: 150px;
-    left: 330px;
+    margin-top: 150px;
+    margin-left: 330px;
     width: 4%;
     height: 8%;
     background-color: rgb(175, 90, 71);
@@ -107,8 +107,8 @@ img {
 .apa_curgatoare_somes{
     display: flex;
     position: absolute;
-    top: 90px;
-    left: 700px;
+    margin-top: 90px;
+    margin-left: 700px;
     width: 4%;
     height: 8%;
     background-color: rgb(148, 164, 237);
@@ -121,8 +121,8 @@ img {
 .apa_curgatoare_barcau{
     display: flex;
     position: absolute;
-    top: 190px;
-    left: 90px;
+    margin-top: 190px;
+    margin-left: 90px;
     width: 4%;
     height: 8%;
     background-color: rgb(148, 164, 237);
@@ -135,8 +135,8 @@ img {
 .apa_curgatoare_agrij{
     display: flex;
     position: absolute;
-    top: 330px;
-    left: 500px;
+    margin-top: 330px;
+    margin-left: 500px;
     width: 4%;
     height: 8%;
     background-color: rgb(148, 164, 237);
@@ -151,8 +151,8 @@ img {
     .porolissum {
         display: flex;
         position: absolute;
-        top: 500px;
-        left: 300px;
+        margin-top: 500px;
+        margin-left: 300px;
         width: 5%;
         height: 3%;
         background-color: rgb(19, 5, 75);
@@ -164,8 +164,8 @@ img {
     .casa_memoriala_ilmaniu {
         display: flex;
         position: absolute;
-        top: 200px;
-        left: 300px;
+        margin-top: 200px;
+        margin-left: 300px;
         width: 5%;
         height: 3%;
         background-color: rgb(32, 6, 66);

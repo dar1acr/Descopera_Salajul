@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="style_foler_index/index_style_characters .css">
     <link rel="stylesheet" href="style_foler_index/index_navbar+slideshow_style.css">
-    <link rel="stylesheet" href="style_foler_index/index_character_trying.css">
+    <link rel="stylesheet" href="style_foler_index/index_character_looks.css">
     <link rel="stylesheet" href="style_foler_index/index_upper_info.css">
     <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Chau Philomene One' rel='stylesheet'>
@@ -13,18 +13,15 @@
 
 <body>
     <div id="navbar">
-        <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+        <a href="index.html">Acasă</a>
+        <a href="aux pages/genereaza_traseu.html">Generează trasue turistic</a>
+        <a onclick="scroll_to_map()">Mergi la hartă</a>
     </div>
     <div class="upper_info">
+        <div class="upper_text">©Wikipedia</div>
+        <br>
         <div class="titlul">Explorează Sălajul</div>
-        <div class="container_character">
-        <div class="head"></div>
-        <div class="body"></div>
-        <div class="l-leg"></div>
-        <div class="r-leg"></div>
-        </div>
+        
     </div>
     <div class="main_content">
         <div class="slideshow-container">
@@ -65,15 +62,43 @@
             <span class="dot" onclick="currentSlide(5)"></span>
         </div>
     </div>
-    <div class=""></div>
+    <br>
+    <div class="charater_container-ch-wild_cat">
+        <div class="ears">
+            <div class="l-ear">
+                <div class="l-pink"></div>
+            </div>
+            <div class="r-ear">
+                <div class="l-pink"></div>
+            </div>
+        </div>
+        <div class="head">
+            <div class="l-eye"></div>
+            <div class="r-eye"></div>
+            <div class="nose"></div>
+            <div class="mouth"></div>
+        </div>
+        <div class="body">
+            <div class="l-arm"></div>
+            <div class="torso">
+                <div class="belly"></div>
+            </div>
+            <div class="r-arm"></div>
+        </div>
+        <div class="legs">
+            <div class="l-leg"></div>
+            <div class="r-leg"></div>
+        </div>
+    </div>
     
+
     <br><br>
 
 
     </div>
-    <div class="map-container">
+    <div class="map-container" id="map">
         <img src="img/Salaj.jpg" alt="Map" />
-        <!--div class="porolissum"></div>
+        <div class="porolissum"></div>
             <div class="casa_memoriala_ilmaniu"></div>
             <div class="jb_gradina"></div>
             <div class="muz_istorie_jd"></div>
@@ -82,7 +107,7 @@
             <div class="apa_curgatoare_somes"></div>
             <div class="apa_curgatoare_barcau"></div>
             <div class="apa_curgatoare_agrij"></div>
-        </div-->
+        </div>
         <script src="scripts_source/index.js"></script>
 </body>
 
