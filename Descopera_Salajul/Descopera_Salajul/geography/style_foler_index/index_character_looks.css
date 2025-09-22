@@ -1,0 +1,29 @@
+/*Partea de zmeu*/
+.monster-male .head{
+    margin-left: 40px;
+    width: 100px;
+    height: 80px;
+    background-color: rgb(29, 182, 209);
+    border-radius: 30px;
+    border-color: blue;
+    overflow: hidden;
+}
+.monster-male .head .l-eye{
+    margin-top: 30px;
+    margin-left: 20px;
+    width:15px;
+    height:30px;
+    background-color: black;
+    border-radius: 50%;
+}
+.monster-male .head .r-eye{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    width:15px;
+    height:30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/*Partea de vrajitoare*/
